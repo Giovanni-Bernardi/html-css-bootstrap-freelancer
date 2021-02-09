@@ -41,17 +41,19 @@ section{
 .about{
   min-height: 450px;
   background-color: green;
+}
 
 .contact-form{
   background-color: #FFFFFF;
+  min-height: 450px
 }
 
 .pre-footer{
-  min-height: 300px;
+  min-height: 200px;
   background-color: lightblue;
 }
 
 .down-footer{
-  min-height: 300px;
+  min-height: 200px;
   background-color: blue;
 }
