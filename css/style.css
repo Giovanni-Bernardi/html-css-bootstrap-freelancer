@@ -45,3 +45,13 @@ section{
 .contact-form{
   background-color: #FFFFFF;
 }
+
+.pre-footer{
+  min-height: 300px;
+  background-color: lightblue;
+}
+
+.down-footer{
+  min-height: 300px;
+  background-color: blue;
+}
