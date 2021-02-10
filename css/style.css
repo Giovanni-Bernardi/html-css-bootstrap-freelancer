@@ -11,17 +11,7 @@
   text-align: center;
 }
 
-header{
-  padding: 10px 0;
-  background-color: blue;
-}
-
-section{
-  padding: 20px 0;
-  min-height: 200px;
-}
-
-
+/* column */
 .column{
   background-color: yellow;
   border: 2px solid black;
@@ -29,13 +19,135 @@ section{
   margin: 10px;
 }
 
-.jumbotron{
-  min-height: 450px;
+h1{
+  font-size: 34px;
+  font-weight: 600;
+}
+
+h2{
+  font-size: 28px;
+  font-weight: 600;
+}
+
+
+/* HEADER*/
+header{
+  background-color: #2c3e50;
+}
+
+header .navbar{
+  margin-bottom: 0;
+  padding-top: 15px;
+  min-height: 80px;
+}
+
+
+header .navbar-default{
+  background-color: transparent;
+  border: 0px;
+}
+
+header .navbar-default .navbar-brand{
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+header .navbar-default .navbar-nav>li>a{
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
+section{
+  padding: 20px 0;
+  /* min-height: 200px; */
+}
+
+/* HOVER *****da fare******* */
+header .navbar-default .navbar-brand:focus,
+header .navbar-default .navbar-brand:hover,
+header .navbar-default .navbar-nav>li>a:focus{
+  color: red;
+}
+
+/* JUMBOTRON */
+.jumbo{
+  min-height: 350px;
   background-color: green;
 }
 
+.text-color{
+  color: white;
+}
+
+#jumbo-img{
+  height: 200px;
+}
+
+#jumbo-star{
+  height: 30px;
+  fill: #ffffff;
+}
+
+.jumbo{
+  background-color: #00b386;
+  min-height: 200px;
+}
+
+/* jumbotron divider */
+.divider{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.divider .line-between{
+  border: 1px solid white;
+  display: inline-block;
+  width: 10%;
+  max-width: 300px;
+  min-width: 30px;
+  margin: 0 1.5%;
+  vertical-align: middle;
+}
+
+.divider .line-between-black{
+  border: 1px solid;
+  display: inline-block;
+  width: 10%;
+  max-width: 300px;
+  min-width: 30px;
+  margin: 0 1.5%;
+  vertical-align: middle;
+}
+
+
+/* PORTFOLIO */
 .portfolio{
   background-color: #FFFFFF;
+}
+
+.portfolio-img{
+  position: relative;
+  margin: 10px 0;
+  background-color: #00b386;
+  border-radius: 10px;
+}
+
+.portfolio-img a{
+  color: white;
+}
+.portfolio-img img{
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.portfolio-img i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  display: none;
 }
 
 .about{
