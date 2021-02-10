@@ -181,11 +181,26 @@ header .navbar-default .navbar-nav>li>a:focus{
   height:50px;
 }
 
+/* CONTACT */
 .contact-form{
   background-color: #FFFFFF;
   min-height: 450px
 }
 
+.form-group{
+  text-align: left;
+}
+
+.button-alignment-left{
+  text-align: left;
+}
+
+.btn-default{
+  color: #FFFFFF;
+  background-color: #00b386;
+}
+
+/* FOOTER */
 .pre-footer{
   min-height: 200px;
   background-color: lightblue;
