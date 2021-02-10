@@ -11,6 +11,9 @@
   text-align: center;
 }
 
+body{
+  font-family: 'Montserrat', 'Lato', sans-serif;
+}
 /* column */
 .column{
   background-color: yellow;
@@ -150,9 +153,32 @@ header .navbar-default .navbar-nav>li>a:focus{
   display: none;
 }
 
+/* ABOUT */
 .about{
-  min-height: 450px;
-  background-color: green;
+  min-height: 340px;
+  background-color: #00b386;
+}
+
+#title-smaller-white{
+  color: #FFFFFF;
+}
+
+#sub-about-left{
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+#sub-about-right{
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+.button-outlined{
+  color: #FFFFFF;
+  padding: 10px;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  height:50px;
 }
 
 .contact-form{
