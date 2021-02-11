@@ -12,8 +12,9 @@
 }
 
 body{
-  font-family: 'Montserrat', 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
+
 /* column */
 .column{
   background-color: yellow;
@@ -32,7 +33,9 @@ h2{
   font-weight: 600;
 }
 
-
+.text-color-white{
+  color: #FFFFFF;
+}
 /* HEADER*/
 header{
   background-color: #2c3e50;
@@ -203,10 +206,46 @@ header .navbar-default .navbar-nav>li>a:focus{
 /* FOOTER */
 .pre-footer{
   min-height: 200px;
-  background-color: lightblue;
+  background-color: #2c3e50;
 }
 
 .down-footer{
-  min-height: 200px;
-  background-color: blue;
+  min-height: 70px;
+  background-color: #343a40;
+}
+
+
+.icon i{
+  padding: 15px;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin: 0 5px;
+}
+
+/* social icons */
+
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0
+	padding: 0;
+}
+
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.social-circle li a {
+	padding: 15px 15px;
+  border: 2px solid #FFFFFF;
+	border-radius:50%;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+  color: #FFFFFF;
+}
+
+#copyright{
+  font-size: 14px;
 }
