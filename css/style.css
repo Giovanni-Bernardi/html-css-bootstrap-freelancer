@@ -15,6 +15,10 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+.white{
+  background-color: #FFFFFF;
+}
+
 /* column */
 .column{
   background-color: yellow;
@@ -36,6 +40,7 @@ h2{
 .text-color-white{
   color: #FFFFFF;
 }
+
 /* HEADER*/
 header{
   background-color: #2c3e50;
@@ -46,7 +51,6 @@ header .navbar{
   padding-top: 15px;
   min-height: 80px;
 }
-
 
 header .navbar-default{
   background-color: transparent;
@@ -69,11 +73,17 @@ section{
   /* min-height: 200px; */
 }
 
-/* HOVER *****da fare******* */
+/* HOVER*/
+
+/* navbar */
+header .navbar-default .navbar-nav>li>a:hover{
+  color: #1abc9c;
+}
+
 header .navbar-default .navbar-brand:focus,
 header .navbar-default .navbar-brand:hover,
 header .navbar-default .navbar-nav>li>a:focus{
-  color: red;
+  color: white;
 }
 
 /* JUMBOTRON */
@@ -139,12 +149,19 @@ header .navbar-default .navbar-nav>li>a:focus{
   border-radius: 10px;
 }
 
+/* hover */
 .portfolio-img a{
   color: white;
 }
+
 .portfolio-img img{
   max-width: 100%;
   border-radius: 10px;
+}
+
+.portfolio-img:hover img{
+  opacity: 0.2;
+  transition: opacity 0.3s;
 }
 
 .portfolio-img i{
@@ -152,8 +169,11 @@ header .navbar-default .navbar-nav>li>a:focus{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 80px;
   display: none;
+}
+
+.portfolio-img:hover i{
+  display: block;
 }
 
 /* ABOUT */
@@ -214,7 +234,6 @@ header .navbar-default .navbar-nav>li>a:focus{
   background-color: #343a40;
 }
 
-
 .icon i{
   padding: 15px;
   border-radius: 50%;
@@ -223,7 +242,6 @@ header .navbar-default .navbar-nav>li>a:focus{
 }
 
 /* social icons */
-
 ul.social-network {
 	list-style: none;
 	display: inline;
